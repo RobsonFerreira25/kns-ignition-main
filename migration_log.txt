@@ -1,0 +1,337 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy para Windows                              
+-------------------------------------------------------------------------------
+
+  Iniciado: quarta-feira, 28 de janeiro de 2026 16:09:06
+   Origem : C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\
+     Destino : C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition\
+
+    Arquivos: *.*
+	    
+Arquivos Exc: bun.lockb
+	    package-lock.json
+	    
+ Diret¢rios Exc: .git
+	    node_modules
+	    .next
+	    .vscode
+	    dist
+	    
+  Op‡äes: *.* /S /E /DCOPY:DA /COPY:DAT /MT:32 /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+	   Mais Antigo		     253	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.gitignore  0%  100%  
+	   Mais Antigo		     414	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\components.json100%  
+	   Mais Antigo		     765	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\eslint.config.js100%  
+	   Mais Antigo		    2001	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\index.html100%  
+	  Novo Arquivo		     791	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\migration_log.txt100%  
+	  Mais Recente		    2934	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\package.json100%  
+	   Mais Antigo		      81	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\postcss.config.js100%  
+	   Mais Antigo		    2102	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\README.md100%  
+	   Mais Antigo		    3432	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\tailwind.config.ts100%  
+	   Mais Antigo		     685	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\tsconfig.app.json100%  
+	   Mais Antigo		     369	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\tsconfig.json100%  
+	   Mais Antigo		     481	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\tsconfig.node.json100%  
+	   Mais Antigo		     494	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\vite.config.ts100%  
+	   Mais Antigo		     395	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\vitest.config.ts100%  
+	   Mais Antigo		   20373	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\public\favicon.ico100%  
+	   Mais Antigo		    3253	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\public\placeholder.svg100%  
+	   Mais Antigo		     160	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\public\robots.txt100%  
+	   Mais Antigo		     606	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\App.css100%  
+	   Mais Antigo		     871	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\App.tsx100%  
+	  Mais Recente		    3389	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\index.css100%  
+	   Mais Antigo		     161	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\main.tsx100%  
+	   Mais Antigo		      38	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\vite-env.d.ts100%  
+	  Novo Arquivo		    8581	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\ARCHITECTURE.md100%  
+	  Novo Arquivo		      66	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\kns-ignition-main\.gitattributes100%  
+	  Novo Arquivo		    1092	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\kns-ignition-main\LICENSE100%  
+	  Mais Recente		    1717	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\AnimatedSection.tsx100%  
+	   Mais Antigo		    6793	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ContactSection.tsx100%  
+	  Mais Recente		    3280	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\CTASection.tsx100%  
+	  Mais Recente		    5535	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\DifferentialsSection.tsx100%  
+	  Mais Recente		    5655	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\Footer.tsx100%  
+	  Mais Recente		    3763	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\Header.tsx100%  
+	  Mais Recente		    5681	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\HeroSection.tsx100%  
+	   Mais Antigo		     751	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\NavLink.tsx100%  
+	   Mais Antigo		    3656	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ProcessSection.tsx100%  
+	  Mais Recente		    5559	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ServicesSection.tsx100%  
+	   Mais Antigo		    3475	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\TestimonialsSection.tsx100%  
+	   Mais Antigo		     576	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\hooks\use-mobile.tsx100%  
+	   Mais Antigo		    3935	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\hooks\use-toast.ts100%  
+	  Novo Arquivo		    8596	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\backend-specialist.md100%  
+	  Novo Arquivo		    3339	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\code-archaeologist.md100%  
+	  Novo Arquivo		    6857	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\database-architect.md100%  
+	  Novo Arquivo		    7833	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\debugger.md100%  
+	  Novo Arquivo		    6299	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\devops-engineer.md100%  
+	  Novo Arquivo		    2545	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\documentation-writer.md100%  
+	  Novo Arquivo		    3951	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\explorer-agent.md100%  
+	  Novo Arquivo		   25365	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\frontend-specialist.md100%  
+	  Novo Arquivo		    4696	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\game-developer.md100%  
+	  Novo Arquivo		   12924	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\mobile-developer.md100%  
+	  Novo Arquivo		   13829	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\orchestrator.md100%  
+	  Novo Arquivo		    4807	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\penetration-tester.md100%  
+	  Novo Arquivo		    4384	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\performance-optimizer.md100%  
+	  Novo Arquivo		    3154	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\product-manager.md100%  
+	  Novo Arquivo		    3889	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\product-owner.md100%  
+	  Novo Arquivo		   13705	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\project-planner.md100%  
+	  Novo Arquivo		    3202	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\qa-automation-engineer.md100%  
+	  Novo Arquivo		    4667	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\security-auditor.md100%  
+	  Novo Arquivo		    2729	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\seo-specialist.md100%  
+	  Novo Arquivo		    3182	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\agents\test-engineer.md100%  
+	  Novo Arquivo		   11897	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\rules\GEMINI.md100%  
+	   Mais Antigo		     143	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\test\example.test.ts100%  
+	   Mais Antigo		     353	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\test\setup.ts100%  
+	   Mais Antigo		     916	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\pages\Index.tsx100%  
+	   Mais Antigo		     727	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\pages\NotFound.tsx100%  
+	  Novo Arquivo		    3989	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\scripts\auto_preview.py100%  
+	  Novo Arquivo		    7569	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\scripts\checklist.py100%  
+	  Novo Arquivo		    4196	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\scripts\session_manager.py100%  
+	  Novo Arquivo		   10997	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\scripts\verify_all.py100%  
+	  Novo Arquivo		   52252	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\Gemini_Generated_Image_3952h13952h13952-removebg-preview.png100%  
+	  Novo Arquivo		  147746	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\Gemini_Generated_Image_hhpwwnhhpwwnhhpw1.png100%  
+	   Mais Antigo		  213597	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\hero-bg.jpg100%  
+	  Novo Arquivo		  794402	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\hero-bg.png100%  
+	  Novo Arquivo		  365360	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\kns-logo-official.png100%  
+	  Novo Arquivo		  419939	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\kns-logo-v3.png100%  
+	  Novo Arquivo		  276980	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\logo-kns.jpg100%  
+	  Novo Arquivo		  435880	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\logo-kns.png100%  
+	  Novo Arquivo		  604870	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\network-bg.png100%  
+	  Novo Arquivo		  736563	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\assets\tech-bg.png100%  
+	   Mais Antigo		     169	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\lib\utils.ts100%  
+	  Novo Arquivo		    1825	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\brainstorm.md100%  
+	  Novo Arquivo		    1247	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\create.md100%  
+	  Novo Arquivo		    1706	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\debug.md100%  
+	  Novo Arquivo		    3635	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\deploy.md100%  
+	  Novo Arquivo		    1175	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\enhance.md100%  
+	  Novo Arquivo		    7306	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\orchestrate.md100%  
+	  Novo Arquivo		    1985	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\plan.md100%  
+	  Novo Arquivo		    1164	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\preview.md100%  
+	  Novo Arquivo		    1416	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\status.md100%  
+	  Novo Arquivo		    2663	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\test.md100%  
+	  Novo Arquivo		   10810	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\workflows\ui-ux-pro-max.md100%  
+	  Novo Arquivo		    5417	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\doc.md100%  
+	   Mais Antigo		    1976	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\accordion.tsx100%  
+	   Mais Antigo		    4313	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\alert-dialog.tsx100%  
+	   Mais Antigo		    1546	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\alert.tsx100%  
+	   Mais Antigo		     143	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\aspect-ratio.tsx100%  
+	   Mais Antigo		    1365	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\avatar.tsx100%  
+	   Mais Antigo		    1089	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\badge.tsx100%  
+	   Mais Antigo		    2687	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\breadcrumb.tsx100%  
+	   Mais Antigo		    2502	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\button.tsx100%  
+	   Mais Antigo		    2563	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\calendar.tsx100%  
+	   Mais Antigo		    1785	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\card.tsx100%  
+	   Mais Antigo		    6249	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\carousel.tsx100%  
+	   Mais Antigo		    9987	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\chart.tsx100%  
+	   Mais Antigo		    1053	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\checkbox.tsx100%  
+	   Mais Antigo		     320	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\collapsible.tsx100%  
+	   Mais Antigo		    4821	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\command.tsx100%  
+	   Mais Antigo		    7191	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\context-menu.tsx100%  
+	   Mais Antigo		    3761	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\dialog.tsx100%  
+	   Mais Antigo		    2941	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\drawer.tsx100%  
+	   Mais Antigo		    7260	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\dropdown-menu.tsx100%  
+	   Mais Antigo		    4014	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\form.tsx100%  
+	   Mais Antigo		    1193	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\hover-card.tsx100%  
+	   Mais Antigo		    2166	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\input-otp.tsx100%  
+	   Mais Antigo		     799	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\input.tsx100%  
+	   Mais Antigo		     696	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\label.tsx100%  
+	   Mais Antigo		    7863	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\menubar.tsx100%  
+	   Mais Antigo		    5030	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\navigation-menu.tsx100%  
+	   Mais Antigo		    2683	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\pagination.tsx100%  
+	   Mais Antigo		    1239	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\popover.tsx100%  
+	   Mais Antigo		     765	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\progress.tsx100%  
+	   Mais Antigo		    1447	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\radio-group.tsx100%  
+	   Mais Antigo		    1696	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\resizable.tsx100%  
+	   Mais Antigo		    1608	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\scroll-area.tsx100%  
+	   Mais Antigo		    5575	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\select.tsx100%  
+	   Mais Antigo		     698	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\separator.tsx100%  
+	   Mais Antigo		    4197	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\sheet.tsx100%  
+	   Mais Antigo		   22837	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\sidebar.tsx100%  
+	   Mais Antigo		     234	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\skeleton.tsx100%  
+	   Mais Antigo		    1065	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\slider.tsx100%  
+	   Mais Antigo		     877	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\sonner.tsx100%  
+	   Mais Antigo		    1147	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\switch.tsx100%  
+	   Mais Antigo		    2694	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\table.tsx100%  
+	   Mais Antigo		    1897	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\tabs.tsx100%  
+	   Mais Antigo		     751	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\textarea.tsx100%  
+	   Mais Antigo		    4798	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\toast.tsx100%  
+	   Mais Antigo		     730	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\toaster.tsx100%  
+	   Mais Antigo		    1714	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\toggle-group.tsx100%  
+	   Mais Antigo		    1416	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\toggle.tsx100%  
+	   Mais Antigo		    1155	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\tooltip.tsx100%  
+	   Mais Antigo		      82	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\src\components\ui\use-toast.ts100%  
+	  Novo Arquivo		    5555	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\agent-coordination.md100%  
+	  Novo Arquivo		    1123	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\feature-building.md100%  
+	  Novo Arquivo		    1323	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\project-detection.md100%  
+	  Novo Arquivo		    3609	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\scaffolding.md100%  
+	  Novo Arquivo		    3172	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\SKILL.md100%  
+	  Novo Arquivo		     886	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\tech-stack.md100%  
+	  Novo Arquivo		    1155	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\api-style.md100%  
+	  Novo Arquivo		     576	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\auth.md100%  
+	  Novo Arquivo		     549	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\documentation.md100%  
+	  Novo Arquivo		     977	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\graphql.md100%  
+	  Novo Arquivo		     726	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\rate-limiting.md100%  
+	  Novo Arquivo		     921	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\response.md100%  
+	  Novo Arquivo		    1280	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\rest.md100%  
+	  Novo Arquivo		    2892	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\security-testing.md100%  
+	  Novo Arquivo		    2435	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\SKILL.md100%  
+	  Novo Arquivo		     801	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\trpc.md100%  
+	  Novo Arquivo		     651	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\versioning.md100%  
+	  Novo Arquivo		    1591	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\architecture\context-discovery.md100%  
+	  Novo Arquivo		    2430	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\architecture\examples.md100%  
+	  Novo Arquivo		    2638	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\architecture\pattern-selection.md100%  
+	  Novo Arquivo		    2307	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\architecture\patterns-reference.md100%  
+	  Novo Arquivo		    1759	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\architecture\SKILL.md100%  
+	  Novo Arquivo		    1579	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\architecture\trade-off-analysis.md100%  
+	  Novo Arquivo		    4156	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\bash-linux\SKILL.md100%  
+	  Novo Arquivo		    5379	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\behavioral-modes\SKILL.md100%  
+	  Novo Arquivo		   11619	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\brainstorming\dynamic-questioning.md100%  
+	  Novo Arquivo		    4660	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\brainstorming\SKILL.md100%  
+	  Novo Arquivo		    2574	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\code-review-checklist\SKILL.md100%  
+	  Novo Arquivo		    1137	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\database-selection.md100%  
+	  Novo Arquivo		     892	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\indexing.md100%  
+	  Novo Arquivo		    1107	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\migrations.md100%  
+	  Novo Arquivo		     902	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\optimization.md100%  
+	  Novo Arquivo		     771	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\orm-selection.md100%  
+	  Novo Arquivo		    1470	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\schema-design.md100%  
+	  Novo Arquivo		    1527	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\SKILL.md100%  
+	  Novo Arquivo		    3312	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\documentation-templates\SKILL.md100%  
+	  Novo Arquivo		    6634	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\clean-code\SKILL.md100%  
+	  Novo Arquivo		    8035	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\animation-guide.md100%  
+	  Novo Arquivo		    9631	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\color-system.md100%  
+	  Novo Arquivo		   17265	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\decision-trees.md100%  
+	  Novo Arquivo		    7999	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\motion-graphics.md100%  
+	  Novo Arquivo		   12519	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\SKILL.md100%  
+	  Novo Arquivo		    8523	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\typography-system.md100%  
+	  Novo Arquivo		   15756	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\ux-psychology.md100%  
+	  Novo Arquivo		    8362	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\visual-effects.md100%  
+	  Novo Arquivo		    5708	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\deployment-procedures\SKILL.md100%  
+	  Novo Arquivo		    3121	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\i18n-localization\SKILL.md100%  
+	  Novo Arquivo		    4682	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\SKILL.md100%  
+	  Novo Arquivo		    3445	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\geo-fundamentals\SKILL.md100%  
+	  Novo Arquivo		    1727	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\lint-and-validate\SKILL.md100%  
+	  Novo Arquivo		   10617	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\intelligent-routing\SKILL.md100%  
+	  Novo Arquivo		    3308	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mcp-builder\SKILL.md100%  
+	  Novo Arquivo		    3101	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\performance-profiling\SKILL.md100%  
+	  Novo Arquivo		   16320	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\decision-trees.md100%  
+	  Novo Arquivo		   14686	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-backend.md100%  
+	  Novo Arquivo		   10211	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-color-system.md100%  
+	  Novo Arquivo		    4250	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-debugging.md100%  
+	  Novo Arquivo		   17227	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-design-thinking.md100%  
+	  Novo Arquivo		   11855	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-navigation.md100%  
+	  Novo Arquivo		   19305	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-performance.md100%  
+	  Novo Arquivo		   11027	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-testing.md100%  
+	  Novo Arquivo		   10717	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\mobile-typography.md100%  
+	  Novo Arquivo		   19541	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\platform-android.md100%  
+	  Novo Arquivo		   17127	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\platform-ios.md100%  
+	  Novo Arquivo		   15455	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\SKILL.md100%  
+	  Novo Arquivo		   16848	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\touch-psychology.md100%  
+	  Novo Arquivo		    7776	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\1-async-eliminating-waterfalls.md100%  
+	  Novo Arquivo		    6269	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\2-bundle-bundle-size-optimization.md100%  
+	  Novo Arquivo		   12860	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\3-server-server-side-performance.md100%  
+	  Novo Arquivo		    6818	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\4-client-client-side-data-fetching.md100%  
+	  Novo Arquivo		   15871	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\5-rerender-re-render-optimization.md100%  
+	  Novo Arquivo		   10353	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\6-rendering-rendering-performance.md100%  
+	  Novo Arquivo		   17360	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\7-js-javascript-performance.md100%  
+	  Novo Arquivo		    3643	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\8-advanced-advanced-patterns.md100%  
+	  Novo Arquivo		    9173	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\SKILL.md100%  
+	  Novo Arquivo		    8266	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nodejs-best-practices\SKILL.md100%  
+	  Novo Arquivo		    3500	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\powershell-windows\SKILL.md100%  
+	  Novo Arquivo		    9476	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\python-patterns\SKILL.md100%  
+	  Novo Arquivo		    5340	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\parallel-agents\SKILL.md100%  
+	  Novo Arquivo		    4000	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\plan-writing\SKILL.md100%  
+	  Novo Arquivo		    2787	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\seo-fundamentals\SKILL.md100%  
+	  Novo Arquivo		    4405	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\red-team-tactics\SKILL.md100%  
+	  Novo Arquivo		    2405	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\systematic-debugging\SKILL.md100%  
+	  Novo Arquivo		    6757	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\tailwind-patterns\SKILL.md100%  
+	  Novo Arquivo		    2746	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\vulnerability-scanner\checklists.md100%  
+	  Novo Arquivo		    7584	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\vulnerability-scanner\SKILL.md100%  
+	  Novo Arquivo		    2813	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\tdd-workflow\SKILL.md100%  
+	  Novo Arquivo		    1771	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\web-design-guidelines\SKILL.md100%  
+	  Novo Arquivo		    3734	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\server-management\SKILL.md100%  
+	  Novo Arquivo		    3815	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\webapp-testing\SKILL.md100%  
+	  Novo Arquivo		    3488	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\testing-patterns\SKILL.md100%  
+	  Novo Arquivo		    7655	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\charts.csv100%  
+	  Novo Arquivo		   12927	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\colors.csv100%  
+	  Novo Arquivo		   13385	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\icons.csv100%  
+	  Novo Arquivo		   14342	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\landing.csv100%  
+	  Novo Arquivo		   29694	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\products.csv100%  
+	  Novo Arquivo		   17401	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\prompts.csv100%  
+	  Novo Arquivo		   14822	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\react-performance.csv100%  
+	  Novo Arquivo		   40912	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\styles.csv100%  
+	  Novo Arquivo		   31878	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\typography.csv100%  
+	  Novo Arquivo		   31071	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\ui-reasoning.csv100%  
+	  Novo Arquivo		   18667	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\ux-guidelines.csv100%  
+	  Novo Arquivo		    7472	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\web-interface.csv100%  
+	  Novo Arquivo		   10420	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\scripts\core.py100%  
+	  Novo Arquivo		   43614	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\scripts\design_system.py100%  
+	  Novo Arquivo		    4989	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\scripts\search.py100%  
+	  Novo Arquivo		    1585	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\SKILL.md100%  
+	  Novo Arquivo		    7593	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\api-patterns\scripts\api_validator.py100%  
+	  Novo Arquivo		    7714	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\i18n-localization\scripts\i18n_checker.py100%  
+	  Novo Arquivo		    5375	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\database-design\scripts\schema_validator.py100%  
+	  Novo Arquivo		    9750	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\geo-fundamentals\scripts\geo_checker.py100%  
+	  Novo Arquivo		    2190	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\2d-games\SKILL.md100%  
+	  Novo Arquivo		    5049	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\game-art\SKILL.md100%  
+	  Novo Arquivo		    4969	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\lint-and-validate\scripts\lint_runner.py100%  
+	  Novo Arquivo		    6480	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\lint-and-validate\scripts\type_coverage.py100%  
+	  Novo Arquivo		    2563	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\3d-games\SKILL.md100%  
+	  Novo Arquivo		    2657	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\performance-profiling\scripts\lighthouse_audit.py100%  
+	  Novo Arquivo		    5361	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\game-audio\SKILL.md100%  
+	  Novo Arquivo		    2645	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\game-design\SKILL.md100%  
+	  Novo Arquivo		    2282	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\mobile-games\SKILL.md100%  
+	  Novo Arquivo		    2973	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\pc-games\SKILL.md100%  
+	  Novo Arquivo		    2379	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\vr-ar\SKILL.md100%  
+	  Novo Arquivo		    2813	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\multiplayer\SKILL.md100%  
+	  Novo Arquivo		    3073	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\game-development\web-games\SKILL.md100%  
+	  Novo Arquivo		    5983	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\scripts\accessibility_checker.py100%  
+	  Novo Arquivo		   39456	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\frontend-design\scripts\ux_audit.py100%  
+	  Novo Arquivo		    6584	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\seo-fundamentals\scripts\seo_checker.py100%  
+	  Novo Arquivo		   35976	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\mobile-design\scripts\mobile_audit.py100%  
+	  Novo Arquivo		   18170	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\vulnerability-scanner\scripts\security_scan.py100%  
+	  Novo Arquivo		    6630	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\scripts\convert_rules.py100%  
+	  Novo Arquivo		   10051	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\nextjs-react-expert\scripts\react_performance_checker.py100%  
+	  Novo Arquivo		    6531	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\webapp-testing\scripts\playwright_runner.py100%  
+	  Novo Arquivo		    7078	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\testing-patterns\scripts\test_runner.py100%  
+	  Novo Arquivo		   12003	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\scripts\__pycache__\core.cpython-313.pyc100%  
+	  Novo Arquivo		   58773	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\scripts\__pycache__\design_system.cpython-313.pyc100%  
+	  Novo Arquivo		    1762	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\cli-tool\TEMPLATE.md100%  
+	  Novo Arquivo		    1706	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\astro-static\TEMPLATE.md100%  
+	  Novo Arquivo		    1823	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\electron-desktop\TEMPLATE.md100%  
+	  Novo Arquivo		    1620	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\nextjs-fullstack\TEMPLATE.md100%  
+	  Novo Arquivo		    2044	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\nextjs-static\TEMPLATE.md100%  
+	  Novo Arquivo		    1759	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\express-api\TEMPLATE.md100%  
+	  Novo Arquivo		    1880	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\monorepo-turborepo\TEMPLATE.md100%  
+	  Novo Arquivo		    1966	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\chrome-extension\TEMPLATE.md100%  
+	  Novo Arquivo		    1785	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\python-fastapi\TEMPLATE.md100%  
+	  Novo Arquivo		    1855	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\flutter-app\TEMPLATE.md100%  
+	  Novo Arquivo		    1939	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\react-native-app\TEMPLATE.md100%  
+	  Novo Arquivo		    2266	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\nextjs-saas\TEMPLATE.md100%  
+	  Novo Arquivo		    2137	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\skills\app-builder\templates\nuxt-app\TEMPLATE.md100%  
+	  Novo Arquivo		   10416	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\flutter.csv100%  
+	  Novo Arquivo		   11305	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\html-tailwind.csv100%  
+	  Novo Arquivo		    8195	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\jetpack-compose.csv100%  
+	  Novo Arquivo		   12493	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\nextjs.csv100%  
+	  Novo Arquivo		   14010	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\nuxt-ui.csv100%  
+	  Novo Arquivo		   16539	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\nuxtjs.csv100%  
+	  Novo Arquivo		    9983	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\react-native.csv100%  
+	  Novo Arquivo		   12962	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\react.csv100%  
+	  Novo Arquivo		   15921	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\shadcn.csv100%  
+	  Novo Arquivo		   11009	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\svelte.csv100%  
+	  Novo Arquivo		   10821	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\swiftui.csv100%  
+	  Novo Arquivo		   11006	C:\Users\ROBSON FERREIRA\OneDrive\Documents\KNprojetos\kns-ignition-main\.agent\.shared\ui-ux-pro-max\data\stacks\vue.csv100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiada  IgnoradaIncompatibilidade     FALHA    Extras
+Diret¢rios:        98        96        12         0         0         1
+ Arquivos:       301       299         2         0         0         0
+    Bytes:    6.08 m    5.56 m   533.7 k         0         0         0
+N.§ de Vezes:   0:00:02   0:00:00                       0:00:00   0:00:00
+
+
+Velocidade:           47.796.868 Bytes/s.
+Velocidade:             2734,959 MegaBytes/min.
+   Finalizado em: quarta-feira, 28 de janeiro de 2026 16:09:06
+

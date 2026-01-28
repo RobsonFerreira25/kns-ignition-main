@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  :root {
+    /* KNS Brand Alignment - Logo Derived Palette */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 210 10% 6%;
+    /* Logo Charcoal Tint */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 210 10% 4%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 198 100% 45%;
+    /* Official Logo Cyan */
+    --primary-foreground: 210 10% 4%;
+
+    --secondary: 210 10% 18%;
+    /* Logo Charcoal Muted */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 210 5% 20%;
+    --muted-foreground: 210 5% 65%;
+
+    --accent: 198 100% 45%;
+    --accent-foreground: 210 10% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 10% 15%;
+    --input: 210 10% 15%;
+    --ring: 198 100% 45%;
+
+    --radius: 0.125rem;
+
+    /* Brand Textures */
+    --kns-grain: radial-gradient(circle at center, hsla(0, 0%, 100%, 0.01) 0, transparent 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(240 10% 3.9%) 0%, hsl(210 10% 7%) 100%);
+    --gradient-glow: radial-gradient(circle at center, hsla(198, 100%, 45%, 0.15) 0%, transparent 70%);
+
+    /* Brand Shadows */
+    --shadow-edge: 0 0 0 1px hsla(210, 10%, 100%, 0.05);
+    --shadow-glow: 0 0 40px -10px hsla(198, 100%, 45%, 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary/30 selection:text-white;
+    font-family: 'Inter', sans-serif;
+    background-image: var(--kns-grain);
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+
+  /* Premium Reveal Utility */
+  .reveal-blur {
+    filter: blur(10px);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .reveal-blur.active {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Sharp Tech Card */
+  .tech-card {
+    @apply relative border bg-card/50 backdrop-blur-md transition-all duration-300;
+    box-shadow: var(--shadow-edge);
+  }
+
+  .tech-card:hover {
+    @apply border-primary/50 bg-card/80;
+    box-shadow: var(--shadow-edge), var(--shadow-glow);
+  }
+
+  /* Scanline Effect */
+  .scanline {
+    @apply pointer-events-none fixed inset-0 z-50 overflow-hidden opacity-[0.03];
+    background: linear-gradient(to bottom, transparent 50%, black 50%);
+    background-size: 100% 4px;
+  }
+
+  /* Noise Overlay */
+  .noise {
+    @apply pointer-events-none fixed inset-0 z-50 opacity-[0.02];
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  }
+}
+
+@layer utilities {
+  .text-edge-glow {
+    text-shadow: 0 0 20px hsla(160, 100%, 50%, 0.5);
+  }
+
+  .bg-grid-tech {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, hsla(0, 0%, 100%, 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, hsla(0, 0%, 100%, 0.02) 1px, transparent 1px);
+  }
+}
