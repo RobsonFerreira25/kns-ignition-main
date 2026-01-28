@@ -34,7 +34,7 @@ export const Footer = () => {
     <footer className="bg-card/50 border-t border-white/5 relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-tech opacity-10 pointer-events-none" />
       <div className="container mx-auto px-4 lg:px-8 py-20 relative z-10">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-24">
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="h-20 mb-8 flex items-center overflow-hidden relative">

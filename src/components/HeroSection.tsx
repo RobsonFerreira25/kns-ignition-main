@@ -16,7 +16,7 @@ export const HeroSection = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
 
   return (
-    <section ref={containerRef} className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section ref={containerRef} className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 md:pt-32">
       {/* Background Layers */}
       <div className="absolute inset-0 z-0">
         <img src={heroBg} alt="" className="w-full h-full object-cover opacity-10 saturate-0 mix-blend-screen" />
@@ -43,7 +43,7 @@ export const HeroSection = () => {
 
           {/* Headline */}
           <AnimatedSection delay={200} animation="blur-reveal">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-none mb-8 tracking-tighter">
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-none mb-8 tracking-tighter">
               A REVOLUÇÃO <br />
               <span className="text-primary text-edge-glow">DIGITAL</span> É AGORA
             </h1>
@@ -75,7 +75,7 @@ export const HeroSection = () => {
 
           {/* Trust Indicators */}
           <AnimatedSection delay={800} animation="fade-in">
-            <div className="mt-24 grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 pt-12 border-t border-white/5">
+            <div className="mt-16 md:mt-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 pt-12 border-t border-white/5">
               <div className="text-center group">
                 <div className="text-4xl lg:text-5xl font-black text-white group-hover:text-primary transition-colors cursor-default">150+</div>
                 <div className="text-[10px] uppercase tracking-widest text-muted-foreground mt-2">Outputs de Sucesso</div>
@@ -84,7 +84,7 @@ export const HeroSection = () => {
                 <div className="text-4xl lg:text-5xl font-black text-white group-hover:text-primary transition-colors cursor-default">8+</div>
                 <div className="text-[10px] uppercase tracking-widest text-muted-foreground mt-2">Ciclos de Inovação</div>
               </div>
-              <div className="text-center group col-span-2 md:col-span-1">
+              <div className="text-center group sm:col-span-2 md:col-span-1">
                 <div className="text-4xl lg:text-5xl font-black text-white group-hover:text-primary transition-colors cursor-default">99%</div>
                 <div className="text-[10px] uppercase tracking-widest text-muted-foreground mt-2">SLA de Satisfação</div>
               </div>

@@ -51,7 +51,7 @@ export const DifferentialsSection = () => {
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
           {/* Static Sidebar Content (The 10% in 90/10 feel) */}
           <div className="lg:w-1/3 flex flex-col pt-8">
-            <div className="sticky top-32">
+            <div className="lg:sticky lg:top-32">
               <AnimatedSection animation="fade-in">
                 <span className="text-primary font-bold text-[10px] uppercase tracking-[0.4em] block mb-4">Diferenciais Elite</span>
               </AnimatedSection>
@@ -92,7 +92,7 @@ export const DifferentialsSection = () => {
                   animation="fade-in-up"
                   className={`${index % 2 === 0 ? 'lg:-translate-y-8' : 'lg:translate-y-8'} transition-transform duration-700`}
                 >
-                  <div className="tech-card p-8 lg:p-10 h-full group bg-white/[0.02] border-white/5 hover:bg-white/[0.05]">
+                  <div className="tech-card p-6 md:p-8 lg:p-10 h-full group bg-white/[0.02] border-white/5 hover:bg-white/[0.05]">
                     <div className="w-12 h-12 flex items-center justify-center mb-6 border border-primary/20 bg-primary/5 group-hover:bg-primary/20 transition-all">
                       <item.icon className="w-6 h-6 text-primary" />
                     </div>

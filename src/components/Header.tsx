@@ -29,11 +29,11 @@ export const Header = () => {
         : 'bg-transparent'
         }`}
     >
-      <div className="container mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-24 lg:h-32">
+      <div className="container mx-auto">
+        <div className="flex items-center justify-between h-16 md:h-24 lg:h-32">
           {/* Logo */}
           <a href="#" className="flex items-center gap-4 group">
-            <div className="relative h-20 lg:h-24 flex items-center">
+            <div className="relative h-12 md:h-20 lg:h-24 flex items-center">
               <img
                 src={logoImg}
                 alt="KNS Logo"
@@ -77,8 +77,8 @@ export const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-border animate-fade-in">
-            <nav className="flex flex-col gap-4">
+          <div className="lg:hidden py-6 border-t border-white/5 animate-in fade-in slide-in-from-top-4 duration-300">
+            <nav className="flex flex-col gap-6">
               {navLinks.map((link) => (
                 <a
                   key={link.href}

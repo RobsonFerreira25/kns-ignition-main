@@ -87,7 +87,7 @@
 
   /* Sharp Tech Card */
   .tech-card {
-    @apply relative border bg-card/50 backdrop-blur-md transition-all duration-300;
+    @apply relative border bg-card/50 backdrop-blur-md transition-all duration-300 p-6 md:p-10 lg:p-12;
     box-shadow: var(--shadow-edge);
   }
 

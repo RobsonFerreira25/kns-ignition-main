@@ -38,13 +38,13 @@ export const ContactSection = () => {
               <span className="text-gradient">conversar?</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Estamos prontos para entender seu projeto e apresentar a melhor solução 
+              Estamos prontos para entender seu projeto e apresentar a melhor solução
               para o seu negócio. Entre em contato e receba uma consultoria gratuita.
             </p>
 
             {/* Contact Options */}
             <div className="space-y-4 mb-8">
-              <a 
+              <a
                 href={whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export const ContactSection = () => {
                 </div>
               </a>
 
-              <a 
+              <a
                 href="mailto:contato@kns.com.br"
                 className="flex items-center gap-4 p-4 rounded-xl bg-background border border-border hover:border-primary/30 transition-colors group"
               >
@@ -86,9 +86,9 @@ export const ContactSection = () => {
 
           {/* Right Content - Form */}
           <AnimatedSection animation="slide-in-right">
-            <form onSubmit={handleSubmit} className="card-gradient p-6 lg:p-8">
+            <form onSubmit={handleSubmit} className="card-gradient p-5 md:p-8">
               <h3 className="text-xl font-bold mb-6">Envie sua mensagem</h3>
-              
+
               <div className="space-y-4">
                 <div>
                   <label htmlFor="name" className="text-sm font-medium mb-2 block">
